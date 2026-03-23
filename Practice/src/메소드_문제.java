@@ -9,6 +9,7 @@ public class 메소드_문제 {
 		
 /*
  * 
+ * 
  * 		1. static boolean idcheck(String id)
  * 		2. static int s(int a)
  * 		3. static int dan(a,b)
