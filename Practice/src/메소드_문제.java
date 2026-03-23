@@ -6,6 +6,7 @@ public class 메소드_문제 {
 		// TODO Auto-generated method stub
 		
 		
+		
 /*
  * 
  * 		1. static boolean idcheck(String id)
