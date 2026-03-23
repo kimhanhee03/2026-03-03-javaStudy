@@ -17,7 +17,7 @@ public class 메소드_문제 {
  *		1. 
  *		static void sum()
 		{
-	
+			
 		for(int i=1;i<=10;i++)
 		{
 			
