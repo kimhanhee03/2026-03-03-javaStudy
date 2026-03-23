@@ -11,7 +11,9 @@ class Saram
 		age=20;
 	}
 	
-}
+}	
+
+
 class Member extends Saram
 {
 
