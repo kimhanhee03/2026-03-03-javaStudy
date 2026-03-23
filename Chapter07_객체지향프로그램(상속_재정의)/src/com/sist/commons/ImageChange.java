@@ -1,7 +1,7 @@
 package com.sist.commons;
 import java.awt.*;
 import javax.swing.*;
-/*
+/* 
  *  1.class 멤버변수 사용
  *     ㄴ기본형
  *        ㄴ기본데이터형
