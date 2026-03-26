@@ -10,10 +10,4 @@ Map map=new HashMap(); // 이게 뭔지 어디서 온건지
 		게시판 a=(게시판)map.get(menu);  // 어떤원리로 작동하는지
 		a.handlerRequest();
 
-method
-abstract
-default
-
-메소드 각각 위치-의미
-
 sist.exception - 에외처리1
