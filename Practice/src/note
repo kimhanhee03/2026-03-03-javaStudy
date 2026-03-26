@@ -1,2 +1,19 @@
-test
+03/26
 
+Map map=new HashMap(); // 이게 뭔지 어디서 온건지
+		map.put(1, new 게시판_글쓰기());
+		map.put(2, new 게시판_목록());
+		map.put(3, new 게시판_상세보기());
+		map.put(4, new 게시판_수정());
+		map.put(5, new 게시판_삭제());
+		
+		게시판 a=(게시판)map.get(menu);  // 어떤원리로 작동하는지
+		a.handlerRequest();
+
+method
+abstract
+default
+
+메소드 각각 위치-의미
+
+sist.exception - 에외처리1
