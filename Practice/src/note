@@ -11,3 +11,16 @@ Map map=new HashMap(); // 이게 뭔지 어디서 온건지
 		a.handlerRequest();
 
 sist.exception - 에외처리1
+
+
+UncheckedExcpetion / CheckedExcpetion 
+오라클
+사용자정의 메소드
+-----------------------------------------?
+
+Chapter06
+ String new="객체지향프로그램";
+1. new(개념 변수종류)
+2. new(메소드)
+3. new(생성자_메소드)
+4. int etc=2;
