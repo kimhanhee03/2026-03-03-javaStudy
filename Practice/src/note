@@ -1,26 +1,13 @@
-03/26
+clone / toString / hash / equals / record
+									 ㄴ왜 쓰는지
+toString,hashCode
 
-Map map=new HashMap(); // 이게 뭔지 어디서 온건지
-		map.put(1, new 게시판_글쓰기());
-		map.put(2, new 게시판_목록());
-		map.put(3, new 게시판_상세보기());
-		map.put(4, new 게시판_수정());
-		map.put(5, new 게시판_삭제());
-		
-		게시판 a=(게시판)map.get(menu);  // 어떤원리로 작동하는지
-		a.handlerRequest();
+객체 문제
 
-sist.exception - 에외처리1
+CustomerDataCollection
 
 
-UncheckedExcpetion / CheckedExcpetion 
-오라클
-사용자정의 메소드
------------------------------------------?
 
-Chapter06
- String new="객체지향프로그램";
-1. new(개념 변수종류)
-2. new(메소드)
-3. new(생성자_메소드)
-4. int etc=2;
+
+
+
