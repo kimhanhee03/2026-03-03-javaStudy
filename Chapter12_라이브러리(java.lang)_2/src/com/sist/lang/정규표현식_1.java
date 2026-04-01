@@ -38,7 +38,12 @@ public class 정규표현식_1 {
 		 *     
 		 *    > replaceAll , split
 		 *  
+		 *  
+		 *  
+		 *  
+		 *  
 		 */
+		
 		
 		String res="맛있는,맛있다,맛있게,맛있고,맛있고,맛없다";
 		Pattern p=Pattern.compile("맛있.");
