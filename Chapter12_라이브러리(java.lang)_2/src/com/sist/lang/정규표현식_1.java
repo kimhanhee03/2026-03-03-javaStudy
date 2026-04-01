@@ -17,7 +17,7 @@ public class 정규표현식_1 {
 		// 숫자 포함되어 있는지
 		boolean result=msg.matches(".*\\d+.*");
 		System.out.println(result);
-		
+		 
 		/*
 		 * 	[] 한개의 문자 > [abc] abc중에 한개
 		 *                 [^abc] > abc외의 다른 한문자
