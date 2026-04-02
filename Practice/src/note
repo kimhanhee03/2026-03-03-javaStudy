@@ -5,7 +5,8 @@
 		{
 			System.out.println(obj);
 		}
-
+		ㄴ설명필요
+3.Collection 3,4 번 코드 해석하기
 --- etc ---
 1. Wrapper
 2. 리턴형은 언제쓰이는
