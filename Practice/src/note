@@ -5,12 +5,14 @@
 		{
 			System.out.println(obj);
 		}
-		ㄴ설명필요
-3.Collection 3,4 번 코드 해석하기
+3.names.add(new A());
+4.Collection 3,4 번 코드 해석하기
+
 --- etc ---
-1. Wrapper
-2. 리턴형은 언제쓰이는
-3. new객체 구
+1. 참조변수 
+2. new객체 구
+3. instance of
+4. Wrapper 필요한 이유
 
 ==== review ====
 컬렉션
