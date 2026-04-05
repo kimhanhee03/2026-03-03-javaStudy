@@ -1,28 +1,4 @@
-==== search ====
---- main ---
-1. list객체 쓸때 오브젝트쓰면 못읽어오는 이유/List는 되는 이유 
-2. for(Object obj:list)
-		{
-			System.out.println(obj);
-		}
-3.names.add(new A());
-4.Collection 3,4 번 코드 해석하기
 
---- etc ---
-1. 참조변수 
-2. new객체 구
-3. instance of
-4. Wrapper 필요한 이유
-
-==== review ====
-컬렉션
-제네릭
-
-==== summary ====
-챕터 6부터 정리,문법위주로
-그 전 챕터들은 응용위주로
-ex)for문으로 야구게임 만들기등등
-   ㄴ강사님 말로는 그냥 응용위주로 공부하라고 하심
 
 
 
