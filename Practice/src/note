@@ -1,6 +1,19 @@
+~예외처리 > 기본문법
+1. String / Math / Wrapper > 정수형 변환
+2. StringTokenizer / Date / Calendar
+3. Collection > ArrayList, Map
+------------------------------------
+4. IO
+ 5. SQL > JDBC
+  ㄴ강사님이 잘 알고 있으라 하심
+      ㄴ근데 Set이랑 Map 깃허브에 안올려주심 말해야 함
+
+========================= today_list ============================
+ 람다_3
 
 
-
-
-
-
+============================= note =================================
+람다_3
+  stream > 데이터 불러오기
+  filter > 조건(like if문)
+  forEach > 출력	  
