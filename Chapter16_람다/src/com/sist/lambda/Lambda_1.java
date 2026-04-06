@@ -11,7 +11,7 @@ public class Lambda_1 {
 		List<Integer> list=new ArrayList<Integer>(List.of(1,2,3,4,5,6,7,8,9,10));
 		for(int i:list)
 		{
-			if(i%2==0)
+			if(i%2==0) 
 				System.out.println(i);
 		}
 		System.out.println("===== 람다 이용 =====");
