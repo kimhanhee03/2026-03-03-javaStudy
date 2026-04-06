@@ -96,6 +96,7 @@ public class Collection_1 {
 			System.out.println(i+"."+list.get(i));
 		}
 		
+		
 		// 저장
 		System.out.println("==== 지정된 위치에 저장 ====");
 		list.add(2,"김규선");
