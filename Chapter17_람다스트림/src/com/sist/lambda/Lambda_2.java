@@ -1,4 +1,14 @@
 package com.sist.lambda;
+/*
+ *  많이 사용되는 함수형 인터페이스
+ *  Function<T,R> T-> R리턴
+ *  Consumer<T> > 입력을 받고 반환 없음
+ *  Supplier<T> > 반환만 있는 상태
+ *  Predicate<T> > 조건검사 > boolean 변화
+ *  
+ *  Stream
+ *   데이터를 함수형 방식으로 처리하는 API
+ */
 import java.io.FileReader;
 /*
  * 	 stream(): 내부 반복자 > 전체 데이터 수집
@@ -7,6 +17,7 @@ import java.io.FileReader;
  *     
  */
 import java.util.*;
+import java.util.stream.Collectors;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -73,45 +84,25 @@ class FoodManager
 			}
 		}catch(Exception ex) {}
 	}
-	/*
-	 *  1. 정적 변수: static {}
-	 *  2. 인스턴스 변수: 생성자를 통해 초기화
-	 *  3. 사용자 정의 데이터형 > 데이터를 모아서 한번에 브라우저에 전송할 목적
-	 *     DTO (Data Tranfor Object)
-	 *  	 ㄴ한개에 대한 정보
-	 *  	   학생 1명/맛집 1개
-	 */
-}
-public class lambda_4 {
+public class Lambda_2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FoodManager fm=new FoodManager();
-		fm.fList.forEach(food->System.out.println(food.getNo()+"."+food.getName()));
-		/*
-		 *  for(Food food:fm.fList)
-		 *  {
-		 *  }
-		 */
-		System.out.println("================================");
-		//평점이 4.0이상
-		for(Food food:fm.fList) // stream()
-		{
-			if(food.getScore()>=4.0) // filter
-			{
-				System.out.println(food.getName()+":"+food.getScore()); //forEach
-			}
-		}
-		
-		System.out.println("================================");
-		fm.fList.stream() //데이터 읽기
-		.filter(food->food.getScore()>=4.0) // 조건
-		.forEach(food->System.out.println(food.getName()+":"+food.getScore())); // 조건에 맞는 데이터만 출력
-		// 정렬
-		// 가격 기준 정렬
-		// 카테고리별 그룹핑 / 평점별 그룹핑
-		// 그룹핑 정렬
-		
-	}
+//		double sum=0.0;
+//		int len=fm.fList.size();
+//		
+//		for(Food f:fm.fList)
+//		{
+//			sum+=f.getScore();
+//			
+//		}
+//		System.out.printf(" 전체 평점 평균:%.2\n ",(sum/len));
+		double avg=
+				fm.fList.stream()
+				.collect(Collectors.averagingDouble(food->food.getScore()));
+		System.out.printf(" 전체 평점 평균:%.2\n ",avg);
+	} 
 
+}
 }
