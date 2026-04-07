@@ -16,7 +16,7 @@ package com.sist.lambda;
  *     		 Runnable r=new Runnable(){
  *     
  *     }
- *     
+ *      
  */
 @FunctionalInterface //람다형이다
 //사용자 정의는 거의 빈도수가 없다
