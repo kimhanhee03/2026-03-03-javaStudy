@@ -1,7 +1,7 @@
 ~예외처리 > 기본문법
 1. String / Math / Wrapper > 정수형 변환
 2. StringTokenizer / Date / Calendar
-3. Collection > ArrayList, Map
+3. Collection > ArrayList, Map (복습 무조건)
 ------------------------------------
 4. IO
  5. SQL > JDBC
