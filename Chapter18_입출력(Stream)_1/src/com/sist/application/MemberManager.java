@@ -5,7 +5,7 @@ import java.io.*;
 public class MemberManager {
 	private final String FILE_NAME="c:\\java_data\\member.txt";
 	
-	//추가
+	//추가 
 	public void create(Scanner scan)
 	{
 		System.out.println("이름 입력:");
